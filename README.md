@@ -78,6 +78,23 @@ Building and Installing
 -----------------------
 Instructions for compiling Async++ and using it in your code are available on the [Building and Installing](https://github.com/Amanieu/asyncplusplus/wiki/Building-and-Installing) page.
 
+### Using with tipi.build
+
+You can add `async++` to your tipi.build projects just by adding the following entry .tipi/deps:
+
+
+```json
+{
+  "Amanieu/asyncplusplus": {  }
+}
+```
+
+To try this run the following command in `/examples` (change the target name appropriately to `linux` or `macos` or `windows`):
+
+```bash
+tipi . -t <target>
+```
+
 Documentation
 ------------
 The Async++ documentation is split into four parts:
